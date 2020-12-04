@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains1.png</SourceFile>
+  <SourceFile>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Mountains1.png</SourceFile>
   <SourceTime>2020-12-01T14:03:54.5491577+00:00</SourceTime>
-  <DestFile>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/bin/DesktopGL/Mountains1.xnb</DestFile>
-  <DestTime>2020-12-04T03:42:31.2933925+00:00</DestTime>
+  <DestFile>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/bin/DesktopGL/Mountains1.xnb</DestFile>
+  <DestTime>2020-12-04T14:47:15.0930457+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-09-23T22:55:52+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

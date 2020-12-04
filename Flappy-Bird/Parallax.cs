@@ -9,6 +9,7 @@ namespace FlappyBird
         SpriteBatch m_SpriteBatch;
         PlayerSprite m_PlayerSprite;//jamie
         Score m_Score;//William
+        Collider m_Collider;//joseph
 
         //store data
 
@@ -18,6 +19,7 @@ namespace FlappyBird
         Texture2D mountain2Image;
         Texture2D mountain3Image;
         Texture2D m_BirdImage;
+        Texture2D m_ColliderImage;
 
         Vector2 cloudPos;
         Vector2 mountain1Pos;
@@ -39,17 +41,20 @@ namespace FlappyBird
         {
             m_SpriteBatch = new SpriteBatch(GraphicsDevice);
 
-            //load the menu textures
+            //load the textures
             staticImage = Game.Content.Load<Texture2D>("Sky");
             mountain1Image = Game.Content.Load<Texture2D>("Mountains1");
             mountain2Image = Game.Content.Load<Texture2D>("Mountains2");
             mountain3Image = Game.Content.Load<Texture2D>("Mountains3");
             cloudImage = Game.Content.Load<Texture2D>("Clouds");
             m_BirdImage = Game.Content.Load<Texture2D>("Bird1");
+            m_ColliderImage = Game.Content.Load<Texture2D>("ColumnSprite");
 
+            //creating instances of classes
             m_PlayerSprite = new PlayerSprite(m_BirdImage);//jamie
             m_Score = new Score(); //william
             m_Score.Load(Game.Content);
+            m_Collider = new Collider(m_ColliderImage);//joseph
         }
 
         //call everyone's update functions
@@ -59,6 +64,12 @@ namespace FlappyBird
 
             m_PlayerSprite.Update();
             m_Score.Update(1);
+            m_Collider.Update(new Rectangle((int)m_PlayerSprite.Position.X, (int)m_PlayerSprite.Position.Y, m_BirdImage.Width, m_BirdImage.Height), new Rectangle((int)m_Collider.pipeX, (int)m_Collider.pipeY, m_ColliderImage.Width, m_ColliderImage.Height));
+            m_Collider.pipeX -= 5;
+            if (m_Collider.collide == true)
+            {
+                m_Score.Update(-10);
+            }
         }
 
         public override void Draw(GameTime gameTime)
@@ -117,6 +128,9 @@ namespace FlappyBird
             {
                 mountain3Pos = new Vector2(0, 0);
             }
+
+            //collider
+            m_Collider.Draw(m_SpriteBatch);
 
             //bird
             m_PlayerSprite.Draw(m_SpriteBatch);

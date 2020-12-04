@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace FlappyBird
 {
+    //Jamie
     class PlayerSprite
     {
         private Texture2D Texture;
@@ -14,12 +15,14 @@ namespace FlappyBird
         public float FallRate = 5f;
         public float RotaVelo = 3f;
 
+        //constructor expecting texture
         public PlayerSprite(Texture2D texture)
         {
             Texture = texture;
             Position = new Vector2(100,100);//added
         }
 
+        //key press
         public void Update()
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Space))
@@ -30,6 +33,7 @@ namespace FlappyBird
             Position.Y += FallRate;
 
         }
+        //draw
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(Texture, Position, null, null, Origin, Rotation, null, Color.White, SpriteEffects.None, 1f);

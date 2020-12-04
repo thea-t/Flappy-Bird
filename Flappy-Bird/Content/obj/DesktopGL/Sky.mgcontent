@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Sky.png</SourceFile>
+  <SourceFile>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Sky.png</SourceFile>
   <SourceTime>2020-12-01T14:06:43.2815654+00:00</SourceTime>
-  <DestFile>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/bin/DesktopGL/Sky.xnb</DestFile>
-  <DestTime>2020-12-04T03:42:31.7255403+00:00</DestTime>
+  <DestFile>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/bin/DesktopGL/Sky.xnb</DestFile>
+  <DestTime>2020-12-04T14:47:15.5562213+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-09-23T22:55:52+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

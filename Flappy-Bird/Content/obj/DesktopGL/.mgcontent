@@ -4,17 +4,19 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Bird1.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Bird2.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Bird3.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Clouds.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Font.spritefont</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains1.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains2.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains3.png</File>
-    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Sky.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Bird1.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Bird2.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Bird3.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Clouds.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/ColumnSprite.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Font.spritefont</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Mountains1.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Mountains2.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Mountains3.png</File>
+    <File>C:/PROJECTS/MonoGame Games/Flappy-Bird/Flappy-Bird/Content/Sky.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
