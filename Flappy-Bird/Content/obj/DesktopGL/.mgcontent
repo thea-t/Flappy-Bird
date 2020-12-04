@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Bird1.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Bird2.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Bird3.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Clouds.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Font.spritefont</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains1.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains2.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Mountains3.png</File>
+    <File>C:/Users/teodo/OneDrive/Работен плот/Parallax/Content/Sky.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
