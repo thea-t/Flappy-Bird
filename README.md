@@ -1,3 +1,3 @@
 # Flappy-Bird
- Target platform: Windows
+ Target platform: Windows; 
  Created using Monogame
